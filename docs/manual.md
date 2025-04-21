@@ -50,7 +50,11 @@ Markdown → LangChain → Embedding → Chroma → Візуалізація
 
 ### 🧠 Загальна логіка Dev-процесу
 
-![Dev Flow](images/dev_main_map.jpg)
+<div style="position: relative; text-align: center; color: white;">
+  <img src="images/dev_main_map.jpg" alt="2D Візуалізація" width="800">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: black;">
+  </div>
+</div>
 
 ### 🖼️ Візуалізація векторів
 
@@ -58,11 +62,19 @@ Markdown → LangChain → Embedding → Chroma → Візуалізація
 
 #### 📍 2D-проєкція
 
-![Приклад 2D візуалізації](images/dev_vector_map_1.png)
+<div style="position: relative; text-align: center; color: white;">
+  <img src="images/dev_vector_map_1.png" alt="2D Візуалізація" width="800">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: black;">
+  </div>
+</div>
 
 #### 📍 3D-проєкція
 
-![Приклад 3D візуалізації](images/dev_vector_map_2.png)
+<div style="position: relative; text-align: center; color: white;">
+  <img src="images/dev_vector_map_2.png" alt="2D Візуалізація" width="800">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: black;">
+  </div>
+</div>
 
 ---
 
@@ -77,7 +89,11 @@ Markdown → LangChain → Embedding → Chroma → Візуалізація
 
 #### 🤖 Приклад Telegram-чату
 
-![Чат Telegram](images/telegram_bot_chat.png)
+<div style="position: relative; text-align: center; color: white;">
+  <img src="images/telegram_bot_chat.png" alt="2D Візуалізація" width="800">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: black;">
+  </div>
+</div>
 
 ### 🔹 База знань (спільна з Dev)
 - Ті ж `.md` файли індексуються через Chroma
@@ -93,21 +109,27 @@ Markdown → LangChain → Embedding → Chroma → Візуалізація
 
 ### 🖼️ Приклади інтерфейсу Gradio
 
-#### 📊 Графік активності
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <div style="text-align: center;">
+    <img src="images/chat-log-inspector_1.png" alt="Графік активності" width="1000">
+    <p>📊 Графік активності</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/chat-log-inspector_2.png" alt="Частотність слів" width="1000">
+    <p>🔁 Частотність слів</p>
+  </div>
+</div>
 
-![Графік активності](images/chat-log-inspector_1.png)
-
-#### 🔁 Частота запитів
-
-![Частотність слів](images/chat-log-inspector_2.png)
-
-#### 👥 Унікальні користувачі
-
-![Унікальні користувачі](images/chat-log-inspector_3.png)
-
-#### 🔎 Деталізація повідомлень
-
-![Таблиця логів](images/chat-log-inspector_4.png)
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <div style="text-align: center;">
+    <img src="images/chat-log-inspector_3.png" alt="Графік активності" width="1000">
+    <p>👥 Унікальні користувачі</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/chat-log-inspector_4.png" alt="Частотність слів" width="1000">
+    <p>🔎 Деталізація повідомлень</p>
+  </div>
+</div>
 
 ---
 
@@ -121,6 +143,8 @@ Markdown → LangChain → Embedding → Chroma → Візуалізація
 - 🔧 **Розробка та експерименти**: [EduBot repository](https://github.com/Matviy-commands/EduBot) — репозиторій з embedding-системою, індексацією знань, візуалізацією векторів, прикладами коду та структуруванням бази знань.
 
 ---
+
+
 
 ## 🔄 База даних
 
