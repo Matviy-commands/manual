@@ -90,7 +90,7 @@ Markdown → LangChain → Embedding → Chroma → Візуалізація
 #### 🤖 Приклад Telegram-чату
 
 <div style="position: relative; text-align: center; color: white;">
-  <img src="images/telegram_bot_chat.png" alt="Приклад Telegram-чату" width="800">
+  <img src="images/telegram_bot_chat.png" alt="2D Візуалізація" width="800">
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: black;">
   </div>
 </div>
@@ -111,23 +111,23 @@ Markdown → LangChain → Embedding → Chroma → Візуалізація
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <div style="text-align: center;">
-    <img src="images/chat-log-inspector_1.png" alt="Графік активності" width="1000">
-    <p>📊 Графік активності</p>
+    <img src="images/insurellm-gpt.png" alt="Адміністративна панель" width="800">
+    <p>🔐 Адміністративна панель</p>
   </div>
   <div style="text-align: center;">
-    <img src="images/chat-log-inspector_2.png" alt="Частотність слів" width="1000">
-    <p>🔁 Частотність слів</p>
+    <img src="images/chat-log-inspector_1.png" alt="Перегляд повідомлень" width="800">
+    <p>🔎 Перегляд повідомлень</p>
   </div>
 </div>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <div style="text-align: center;">
-    <img src="images/chat-log-inspector_3.png" alt="Графік активності" width="1000">
-    <p>👥 Унікальні користувачі</p>
+    <img src="images/chat-log-inspector_2.png" alt="Оновлення DB" width="800">
+    <p>🔁 Оновлення DB</p>
   </div>
   <div style="text-align: center;">
-    <img src="images/chat-log-inspector_4.png" alt="Частотність слів" width="1000">
-    <p>🔎 Деталізація повідомлень</p>
+    <img src="images/chat-log-inspector_3.png" alt="Графік активності" width="800">
+    <p>📊 Графік активності</p>
   </div>
 </div>
 
@@ -160,7 +160,7 @@ SQLite файл `chat_logs.db` містить:
 
 ## 📈 Архітектура (діаграма)
 
-Нижче представлено загальну схему архітектури системи EduBot, яка показує як Dev-частина (embedding + візуалізація) та Deploy-частина (Telegram-бот та Gradio UI) взаємодіють через спільну векторну базу знань (Chroma):
+Нижче представлено загальну схему архітектури системи EduBot, яка показує Deploy-частину (Telegram-бот та Gradio UI):
 
 ```
 Markdown Files
