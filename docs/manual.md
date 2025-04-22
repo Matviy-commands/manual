@@ -90,7 +90,7 @@ Markdown → LangChain → Embedding → Chroma → Візуалізація
 #### 🤖 Приклад Telegram-чату
 
 <div style="position: relative; text-align: center; color: white;">
-  <img src="images/telegram_bot_chat.png" alt="2D Візуалізація" width="800">
+  <img src="images/telegram_bot_chat.png" alt="Приклад Telegram-чату" width="800">
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: black;">
   </div>
 </div>
@@ -172,7 +172,11 @@ Embedding → Chroma
 Gradio UI        Telegram Bot
 ```
 
-![EduBot Architecture](images/edubot_architecture_diagram.png)
+<div style="position: relative; text-align: center; color: white;">
+  <img src="images/edubot_architecture_diagram.jpg/" alt="Архітектура" width="800">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: black;">
+  </div>
+</div>
 
 ---
 
